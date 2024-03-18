@@ -3,7 +3,7 @@ namespace src\routes;
 
 class Router{
     private $url;
-    private $controller;
+    private $controller = "Pages";
     private $method = "index";
 
     public function routes()
