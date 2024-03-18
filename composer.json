@@ -1,0 +1,17 @@
+{
+    "name": "marcos/agenda-de-contatos",
+    "description": "Agenda de contatos em php",
+    "autoload": {
+        "psr-4": {
+            "src\\": "src/"
+        },
+        "files": []
+    },
+    "authors": [
+        {
+            "name": "Marcos Rodrigues",
+            "email": "marcosrodrigues3546@gmail.com"
+        }
+    ],
+    "require": {}
+}
