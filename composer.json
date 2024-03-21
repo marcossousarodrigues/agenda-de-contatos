@@ -5,7 +5,9 @@
         "psr-4": {
             "src\\": "src/"
         },
-        "files": []
+        "files": [
+            "config/config.php"
+        ]
     },
     "authors": [
         {

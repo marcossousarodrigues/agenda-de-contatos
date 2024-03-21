@@ -1,6 +1,6 @@
 <?php
 namespace src\controllers;
-
+use src\controllers\ContactController;
 class PagesController
 {
 
@@ -16,7 +16,14 @@ class PagesController
 
     public function contact()
     {
-        require_once './src/views/contact.php';
+        require_once './src/views/createContact.php';
+    }
+
+    public function contactList()
+    {   
+        $contacts = ContactController::read();
+
+        require_once './src/views/listContact.php';
     }
 
     public function user()

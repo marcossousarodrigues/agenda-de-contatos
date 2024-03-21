@@ -1,6 +1,6 @@
 <?php
 namespace src\controllers;
-
+use src\models\Contact;
 class ContactController{
 
     private $name;
@@ -10,29 +10,45 @@ class ContactController{
     private $address;
 
     public function __construct()
-    {
-        
+    {   
+
     }
 
     
-    public function create()
+    public static function create()
+    {
+        
+        $name = isset($_POST['name']) ? $_POST['name'] : "";
+        $surname = isset($_POST['surname']) ? $_POST['surname'] : "";
+        $tel = isset($_POST['tel']) ? $_POST['tel'] : "";
+        $email = isset($_POST['email']) ? $_POST['email'] : "";
+        
+        $contact = [
+            "name" => $name,
+            "surname" => $surname,
+            "tel" => $tel,
+            "email" => $email
+        ];
+
+        $getMessage = Contact::insert($contact);
+
+        header("location: ".baseUrl."pages/contactlist");
+
+    }
+
+    public static function update()
     {
 
     }
 
-    public function update()
+    public static function delete()
     {
 
     }
 
-    public function delete()
+    public static function read()
     {
-
-    }
-
-    public function read()
-    {
-
+        return Contact::selectAll();
     }
 
 

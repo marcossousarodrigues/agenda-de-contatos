@@ -2,8 +2,8 @@
 namespace src\routes;
 
 class Router{
-    private $url;
-    private $controller = "Pages";
+    private $url = ["Pages", "home"];
+    private $controller;
     private $method = "index";
 
     public function routes()
@@ -16,8 +16,9 @@ class Router{
             {
             
                 $this->controller = 'src\\controllers\\'.ucfirst($this->url[0])."Controller";
-                
-                if($this->url[1])
+
+
+                if( isset($this->url[1]))
                 {
                     if(method_exists($this->controller, $this->url[1]))
                     {
@@ -38,6 +39,12 @@ class Router{
 
             }
         
+        }
+        else
+        {
+            $this->controller = 'src\\controllers\\'.ucfirst($this->url[0])."Controller";
+                
+            $response = call_user_func_array(array(new $this->controller, $this->method), $this->url);
         }
     }
 
