@@ -51,8 +51,30 @@ A arquitetura do projeto segue o padrão MVC (Model-View-Controller), que organi
 ![image](https://github.com/marcossousarodrigues/agenda-de-contatos/assets/49259832/1f8cf2cf-1fb4-422a-b5f4-ecc24c507d22)
 
 
+![image](https://github.com/marcossousarodrigues/agenda-de-contatos/assets/49259832/521e3330-89cd-40b2-a178-6b5984b5dda4)
 
 
+![image](https://github.com/marcossousarodrigues/agenda-de-contatos/assets/49259832/bfe580e7-7331-479b-9bda-77f267a6b346)
+
+![image](https://github.com/marcossousarodrigues/agenda-de-contatos/assets/49259832/df4168f6-25f6-4fab-a37b-90e89eaa8569)
+
+
+![image](https://github.com/marcossousarodrigues/agenda-de-contatos/assets/49259832/a022b163-0ed0-4079-ad60-f1524969e108)
+
+
+![image](https://github.com/marcossousarodrigues/agenda-de-contatos/assets/49259832/561c3b8a-3ec7-41d2-b39a-956c0d1587ce)
+
+
+![image](https://github.com/marcossousarodrigues/agenda-de-contatos/assets/49259832/4d0a6f75-675f-40c8-bc5e-e6481e5253b2)
+
+
+![image](https://github.com/marcossousarodrigues/agenda-de-contatos/assets/49259832/3c6f592d-0497-4661-bf11-d926001e3b45)
+
+
+![image](https://github.com/marcossousarodrigues/agenda-de-contatos/assets/49259832/ba17482d-a216-49b6-ba01-40d41c838ccf)
+
+
+![image](https://github.com/marcossousarodrigues/agenda-de-contatos/assets/49259832/61b00714-983f-45a9-894a-cdd2d1368bd9)
 
 
 
