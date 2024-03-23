@@ -78,4 +78,21 @@ A arquitetura do projeto segue o padrão MVC (Model-View-Controller), que organi
 
 
 
+<p>
+A plataforma apresenta diversas funcionalidades principais que visam facilitar a interação dos usuários e garantir uma experiência satisfatória. Uma das principais funcionalidades é a Autenticação de Usuários, que permite o cadastro de novos usuários com validação de dados, assegurando a integridade das informações inseridas. Além disso, o sistema oferece a opção de login para usuários já cadastrados, realizando uma verificação das credenciais para garantir a segurança das contas.
+</p>
+
+<p>
+Outra funcionalidade essencial é a Gestão de Contatos, que possibilita o cadastro, edição e exclusão de contatos de forma intuitiva e eficiente. Cada contato inserido é associado ao usuário responsável pelo cadastro, estabelecendo uma relação de 1 para muitos entre os usuários e seus contatos.
+</p>
+
+<p>
+A Área de Manutenção do Usuário é um espaço dedicado para que os usuários possam gerenciar suas informações pessoais, como nome, e-mail, telefone e senha. Essa funcionalidade oferece a flexibilidade necessária para que os usuários possam atualizar e modificar seus dados conforme necessário, garantindo a precisão das informações em sua conta.
+</p>
+
+<p>
+Para aprimorar a experiência do usuário, o sistema conta com validações de formulários em JavaScript, o que contribui para a prevenção de erros durante o preenchimento de dados e proporciona uma navegação mais fluída e intuitiva. Além disso, o sistema fornece mensagens de feedback para informar os usuários sobre o sucesso ou falha das operações realizadas, mantendo-os sempre atualizados e engajados com a plataforma.
+</p>
+
+
 
