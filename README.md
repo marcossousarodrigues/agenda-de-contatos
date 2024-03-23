@@ -1,4 +1,4 @@
-<h1>Documentação do Projeto: Agenda de Contatos</h1>
+<h1>Agenda de Contatos</h1>
 <h2>
 Descrição
 </h2>
