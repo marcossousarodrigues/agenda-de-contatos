@@ -26,18 +26,18 @@
         
         <form  id="form" action="<?php echo baseUrl ?>user/alter" method="post">
             <label for="">Nome
-            <input type="text" value="<?php echo $_SESSION['user_name'] ?>" name="name" class="name">
+            <input type="text" value="<?php echo $user["name"] ?>" name="name" class="name">
             </label>
 
             <label for="">Sobrenome
-            <input type="text" name="surname" class="surname">
+            <input type="text" value="<?php echo $user["surname"] ?>" name="surname" class="surname">
             </label>
             
             <label for="">Email
-            <input type="text" name="email" class="email">
+            <input type="text" value="<?php echo $user["email"] ?>"  name="email" class="email">
             </label>
 
-            <button class="btn-register">Atualizar</button>
+            <button class="btn-alter-user">Atualizar</button>
             
         </form>
 
@@ -46,18 +46,18 @@
         <h2>Redefinir Senha</h2>
         <form  id="form" action="<?php echo baseUrl ?>user/password" method="post">
             <label for="">Senha Antiga
-                <input type="password" name="password" class="password">
+                <input type="password" value="<?php echo $user["password"] ?>" name="password" class="password">
             </label>
 
             <label for="">Nova Senha
-                <input type="password" name="password" class="password">
+                <input type="password" name="mnewpassword" class="newpassword">
             </label>
 
             <label for="">Confirmação Nova Senha
-                <input type="password" name="password" class="password">
+                <input type="password" name="confirmnewpassword" class="confirmnewpassword">
             </label>
 
-            <button class="btn-register">Atualizar</button>
+            <button class="btn-alter-password">Atualizar</button>
             
         </form>
 

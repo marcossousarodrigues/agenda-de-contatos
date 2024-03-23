@@ -52,7 +52,8 @@ class PagesController
     {
         
         if($this->auth )
-        {
+        {   
+            $user = UserController::readByEmail(isset($_SESSION['user_email']) ? $_SESSION['user_email'] : "" );
             require_once './src/views/user/dashboard.php';
         }
         else

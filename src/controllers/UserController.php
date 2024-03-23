@@ -109,6 +109,11 @@ class UserController{
         echo "read";
     }
 
+    public static function readByEmail($email)
+    {
+        return User::selectByEmail($email);
+    }
+
     public function authUser($user)
     {
         $_SESSION['auth_user']  = true;
