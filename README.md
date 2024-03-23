@@ -40,7 +40,8 @@ A arquitetura do projeto segue o padrão MVC (Model-View-Controller), que organi
 ![image](https://github.com/marcossousarodrigues/agenda-de-contatos/assets/49259832/7eb8aa15-1724-476b-9d85-cfc8dd1e65fd)
 
 
-![image](https://github.com/marcossousarodrigues/agenda-de-contatos/assets/49259832/86b8a874-7904-4db7-b08e-00caf3e06e27)
+![image](https://github.com/marcossousarodrigues/agenda-de-contatos/assets/49259832/abdcc098-7a62-4022-92fe-45c144202b59)
+
 
 
 ![image](https://github.com/marcossousarodrigues/agenda-de-contatos/assets/49259832/73ca58a6-baac-4dd1-91c0-ce0794933927)
