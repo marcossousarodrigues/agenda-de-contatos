@@ -1,6 +1,5 @@
 <?php
 
-
 // chamado do autoload de classes
 require_once './vendor/autoload.php';
 
@@ -12,12 +11,15 @@ use src\routes\Router;
 
 
 // carregando o header das paginas
+
 include './layouts/header.php';
 
-// carregando rotas da aplicação    
+// carregando rotas da aplicação   
+
 $router = new Router();
 
 $router->routes();
+
 
 // carregando o footer das paginas
 

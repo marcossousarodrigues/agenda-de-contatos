@@ -1,6 +1,8 @@
 
 <?php
 
+session_start();
+
 CONST baseUrl = "http://localhost/cursos/Agenda-de-contatos/";
 
 // configurações de acesso ao banco de dados

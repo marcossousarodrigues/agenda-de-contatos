@@ -5,6 +5,7 @@ class Router{
     private $url = ["Pages", "home"];
     private $controller;
     private $method = "index";
+    private $params = [];
 
     public function routes()
     {
@@ -14,10 +15,15 @@ class Router{
 
             if($this->url[0])
             {
-            
-                $this->controller = 'src\\controllers\\'.ucfirst($this->url[0])."Controller";
-
-
+                
+                if(class_exists("src\\controllers\\".ucfirst($this->url[0])."Controller"))
+                {
+                    $this->controller = 'src\\controllers\\'.ucfirst($this->url[0])."Controller";
+                }
+                else{
+                    $this->controller = "src\\controllers\\PagesController";
+                }
+               
                 if( isset($this->url[1]))
                 {
                     if(method_exists($this->controller, $this->url[1]))
@@ -26,8 +32,15 @@ class Router{
                     }
                 }
 
+                if( isset($this->url[2]))
+                {
+                    array_push($this->params, $this->url[2]);
+                }
+
+
                 try{
-                $response = call_user_func_array(array(new $this->controller, $this->method), $this->url);
+
+                call_user_func_array(array(new $this->controller, $this->method), $this->params);
 
                 }
                 catch(\Exception $e)
@@ -44,7 +57,7 @@ class Router{
         {
             $this->controller = 'src\\controllers\\'.ucfirst($this->url[0])."Controller";
                 
-            $response = call_user_func_array(array(new $this->controller, $this->method), $this->url);
+            call_user_func_array(array(new $this->controller, $this->method), $this->url);
         }
     }
 
