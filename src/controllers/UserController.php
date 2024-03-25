@@ -14,6 +14,11 @@ class UserController{
         
     }
 
+    public function index()
+    {
+        header("location: ".baseUrl."pages/login");
+    }
+
     public function login()
     {
 

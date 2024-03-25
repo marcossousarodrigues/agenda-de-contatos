@@ -19,7 +19,6 @@ class PagesController
         {
             $contacts = ContactController::read();
             require_once './src/views/contact/listContact.php';
-            header("Location:".baseUrl."pages/contactlist");
         }
         else
         {

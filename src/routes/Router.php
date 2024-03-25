@@ -38,6 +38,7 @@ class Router{
                 }
 
 
+                
                 try{
 
                 call_user_func_array(array(new $this->controller, $this->method), $this->params);
