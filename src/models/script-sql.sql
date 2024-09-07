@@ -1,5 +1,4 @@
 
-
 --- tabela usuários
 
 CREATE TABLE tb_user(
