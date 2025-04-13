@@ -3,7 +3,7 @@
 
 session_start();
 
-CONST baseUrl = "http://localhost/cursos/Agenda-de-contatos/";
+CONST baseUrl = "http://localhost/Agenda-de-contatos/";
 
 // configurações de acesso ao banco de dados
 
